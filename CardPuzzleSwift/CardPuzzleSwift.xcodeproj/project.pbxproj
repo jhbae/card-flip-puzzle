@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70B14EBA1D9AE21800034BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14EB91D9AE21800034BD7 /* AppDelegate.swift */; };
+		70B14EBC1D9AE21800034BD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14EBB1D9AE21800034BD7 /* ViewController.swift */; };
+		70B14EBF1D9AE21800034BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B14EBD1D9AE21800034BD7 /* Main.storyboard */; };
+		70B14EC11D9AE21800034BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B14EC01D9AE21800034BD7 /* Assets.xcassets */; };
+		70B14EC41D9AE21800034BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B14EC21D9AE21800034BD7 /* LaunchScreen.storyboard */; };
+		70B14ECF1D9AE21800034BD7 /* CardPuzzleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14ECE1D9AE21800034BD7 /* CardPuzzleSwiftTests.swift */; };
+		70B14EDA1D9AE26700034BD7 /* MultiplesFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14ED91D9AE26700034BD7 /* MultiplesFlip.swift */; };
+		70B14EDB1D9AE3EE00034BD7 /* MultiplesFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14ED91D9AE26700034BD7 /* MultiplesFlip.swift */; };
+		70B14EDD1D9B7F0700034BD7 /* PrimeNumberFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14EDC1D9B7F0700034BD7 /* PrimeNumberFlip.swift */; };
+		70E8DA091D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DA081D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift */; };
+		70E8DA0A1D9C4D6100BD3DA9 /* PrimeNumberFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14EDC1D9B7F0700034BD7 /* PrimeNumberFlip.swift */; };
+		70E8DA0B1D9C4D6400BD3DA9 /* FlipCardSolutionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DA081D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70B14ECB1D9AE21800034BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B14EAE1D9AE21800034BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B14EB51D9AE21800034BD7;
+			remoteInfo = CardPuzzleSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70B14EB61D9AE21800034BD7 /* CardPuzzleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardPuzzleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B14EB91D9AE21800034BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70B14EBB1D9AE21800034BD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70B14EBE1D9AE21800034BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70B14EC01D9AE21800034BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70B14EC31D9AE21800034BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70B14EC51D9AE21800034BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B14ECA1D9AE21800034BD7 /* CardPuzzleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardPuzzleSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B14ECE1D9AE21800034BD7 /* CardPuzzleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPuzzleSwiftTests.swift; sourceTree = "<group>"; };
+		70B14ED01D9AE21800034BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B14ED91D9AE26700034BD7 /* MultiplesFlip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplesFlip.swift; sourceTree = "<group>"; };
+		70B14EDC1D9B7F0700034BD7 /* PrimeNumberFlip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeNumberFlip.swift; sourceTree = "<group>"; };
+		70E8DA081D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipCardSolutionFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70B14EB31D9AE21800034BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B14EC71D9AE21800034BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70B14EAD1D9AE21800034BD7 = {
+			isa = PBXGroup;
+			children = (
+				70B14EB81D9AE21800034BD7 /* CardPuzzleSwift */,
+				70B14ECD1D9AE21800034BD7 /* CardPuzzleSwiftTests */,
+				70B14EB71D9AE21800034BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70B14EB71D9AE21800034BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70B14EB61D9AE21800034BD7 /* CardPuzzleSwift.app */,
+				70B14ECA1D9AE21800034BD7 /* CardPuzzleSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70B14EB81D9AE21800034BD7 /* CardPuzzleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				70B14EB91D9AE21800034BD7 /* AppDelegate.swift */,
+				70B14EBB1D9AE21800034BD7 /* ViewController.swift */,
+				70B14EBD1D9AE21800034BD7 /* Main.storyboard */,
+				70B14EC01D9AE21800034BD7 /* Assets.xcassets */,
+				70B14EC21D9AE21800034BD7 /* LaunchScreen.storyboard */,
+				70B14EC51D9AE21800034BD7 /* Info.plist */,
+				70B14ED91D9AE26700034BD7 /* MultiplesFlip.swift */,
+				70B14EDC1D9B7F0700034BD7 /* PrimeNumberFlip.swift */,
+				70E8DA081D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift */,
+			);
+			path = CardPuzzleSwift;
+			sourceTree = "<group>";
+		};
+		70B14ECD1D9AE21800034BD7 /* CardPuzzleSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				70B14ECE1D9AE21800034BD7 /* CardPuzzleSwiftTests.swift */,
+				70B14ED01D9AE21800034BD7 /* Info.plist */,
+			);
+			path = CardPuzzleSwiftTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70B14EB51D9AE21800034BD7 /* CardPuzzleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B14ED31D9AE21800034BD7 /* Build configuration list for PBXNativeTarget "CardPuzzleSwift" */;
+			buildPhases = (
+				70B14EB21D9AE21800034BD7 /* Sources */,
+				70B14EB31D9AE21800034BD7 /* Frameworks */,
+				70B14EB41D9AE21800034BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardPuzzleSwift;
+			productName = CardPuzzleSwift;
+			productReference = 70B14EB61D9AE21800034BD7 /* CardPuzzleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70B14EC91D9AE21800034BD7 /* CardPuzzleSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B14ED61D9AE21800034BD7 /* Build configuration list for PBXNativeTarget "CardPuzzleSwiftTests" */;
+			buildPhases = (
+				70B14EC61D9AE21800034BD7 /* Sources */,
+				70B14EC71D9AE21800034BD7 /* Frameworks */,
+				70B14EC81D9AE21800034BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B14ECC1D9AE21800034BD7 /* PBXTargetDependency */,
+			);
+			name = CardPuzzleSwiftTests;
+			productName = CardPuzzleSwiftTests;
+			productReference = 70B14ECA1D9AE21800034BD7 /* CardPuzzleSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70B14EAE1D9AE21800034BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Luke Bae";
+				TargetAttributes = {
+					70B14EB51D9AE21800034BD7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					70B14EC91D9AE21800034BD7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70B14EB51D9AE21800034BD7;
+					};
+				};
+			};
+			buildConfigurationList = 70B14EB11D9AE21800034BD7 /* Build configuration list for PBXProject "CardPuzzleSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70B14EAD1D9AE21800034BD7;
+			productRefGroup = 70B14EB71D9AE21800034BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70B14EB51D9AE21800034BD7 /* CardPuzzleSwift */,
+				70B14EC91D9AE21800034BD7 /* CardPuzzleSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70B14EB41D9AE21800034BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B14EC41D9AE21800034BD7 /* LaunchScreen.storyboard in Resources */,
+				70B14EC11D9AE21800034BD7 /* Assets.xcassets in Resources */,
+				70B14EBF1D9AE21800034BD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B14EC81D9AE21800034BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70B14EB21D9AE21800034BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B14EBC1D9AE21800034BD7 /* ViewController.swift in Sources */,
+				70B14EDA1D9AE26700034BD7 /* MultiplesFlip.swift in Sources */,
+				70B14EDD1D9B7F0700034BD7 /* PrimeNumberFlip.swift in Sources */,
+				70E8DA091D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift in Sources */,
+				70B14EBA1D9AE21800034BD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B14EC61D9AE21800034BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B14EDB1D9AE3EE00034BD7 /* MultiplesFlip.swift in Sources */,
+				70B14ECF1D9AE21800034BD7 /* CardPuzzleSwiftTests.swift in Sources */,
+				70E8DA0B1D9C4D6400BD3DA9 /* FlipCardSolutionFactory.swift in Sources */,
+				70E8DA0A1D9C4D6100BD3DA9 /* PrimeNumberFlip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70B14ECC1D9AE21800034BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B14EB51D9AE21800034BD7 /* CardPuzzleSwift */;
+			targetProxy = 70B14ECB1D9AE21800034BD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70B14EBD1D9AE21800034BD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B14EBE1D9AE21800034BD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70B14EC21D9AE21800034BD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B14EC31D9AE21800034BD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70B14ED11D9AE21800034BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70B14ED21D9AE21800034BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70B14ED41D9AE21800034BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardPuzzleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thewhalegames.puzzle.CardPuzzleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		70B14ED51D9AE21800034BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardPuzzleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thewhalegames.puzzle.CardPuzzleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		70B14ED71D9AE21800034BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardPuzzleSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thewhalegames.puzzle.CardPuzzleSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardPuzzleSwift.app/CardPuzzleSwift";
+			};
+			name = Debug;
+		};
+		70B14ED81D9AE21800034BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardPuzzleSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thewhalegames.puzzle.CardPuzzleSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardPuzzleSwift.app/CardPuzzleSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70B14EB11D9AE21800034BD7 /* Build configuration list for PBXProject "CardPuzzleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B14ED11D9AE21800034BD7 /* Debug */,
+				70B14ED21D9AE21800034BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B14ED31D9AE21800034BD7 /* Build configuration list for PBXNativeTarget "CardPuzzleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B14ED41D9AE21800034BD7 /* Debug */,
+				70B14ED51D9AE21800034BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B14ED61D9AE21800034BD7 /* Build configuration list for PBXNativeTarget "CardPuzzleSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B14ED71D9AE21800034BD7 /* Debug */,
+				70B14ED81D9AE21800034BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70B14EAE1D9AE21800034BD7 /* Project object */;
+}
