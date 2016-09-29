@@ -18,9 +18,9 @@
 		70B14EDA1D9AE26700034BD7 /* MultiplesFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14ED91D9AE26700034BD7 /* MultiplesFlip.swift */; };
 		70B14EDB1D9AE3EE00034BD7 /* MultiplesFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14ED91D9AE26700034BD7 /* MultiplesFlip.swift */; };
 		70B14EDD1D9B7F0700034BD7 /* PrimeNumberFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14EDC1D9B7F0700034BD7 /* PrimeNumberFlip.swift */; };
-		70E8DA091D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DA081D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift */; };
+		70E8DA091D9BCA8500BD3DA9 /* CardFlipSolutionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DA081D9BCA8500BD3DA9 /* CardFlipSolutionFactory.swift */; };
 		70E8DA0A1D9C4D6100BD3DA9 /* PrimeNumberFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14EDC1D9B7F0700034BD7 /* PrimeNumberFlip.swift */; };
-		70E8DA0B1D9C4D6400BD3DA9 /* FlipCardSolutionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DA081D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift */; };
+		70E8DA0B1D9C4D6400BD3DA9 /* CardFlipSolutionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DA081D9BCA8500BD3DA9 /* CardFlipSolutionFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,7 @@
 		70B14ED01D9AE21800034BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70B14ED91D9AE26700034BD7 /* MultiplesFlip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplesFlip.swift; sourceTree = "<group>"; };
 		70B14EDC1D9B7F0700034BD7 /* PrimeNumberFlip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeNumberFlip.swift; sourceTree = "<group>"; };
-		70E8DA081D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipCardSolutionFactory.swift; sourceTree = "<group>"; };
+		70E8DA081D9BCA8500BD3DA9 /* CardFlipSolutionFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFlipSolutionFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 		7044F2571D9D506D00A71DD5 /* CardPuzzle */ = {
 			isa = PBXGroup;
 			children = (
-				70E8DA081D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift */,
+				70E8DA081D9BCA8500BD3DA9 /* CardFlipSolutionFactory.swift */,
 				7044F2581D9D50A500A71DD5 /* CardFlipSolution.swift */,
 				7044F2561D9D502B00A71DD5 /* Solutions */,
 			);
@@ -235,7 +235,7 @@
 				70B14EDA1D9AE26700034BD7 /* MultiplesFlip.swift in Sources */,
 				70B14EDD1D9B7F0700034BD7 /* PrimeNumberFlip.swift in Sources */,
 				7044F2591D9D50A500A71DD5 /* CardFlipSolution.swift in Sources */,
-				70E8DA091D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift in Sources */,
+				70E8DA091D9BCA8500BD3DA9 /* CardFlipSolutionFactory.swift in Sources */,
 				70B14EBA1D9AE21800034BD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +246,7 @@
 			files = (
 				70B14EDB1D9AE3EE00034BD7 /* MultiplesFlip.swift in Sources */,
 				70B14ECF1D9AE21800034BD7 /* CardPuzzleSwiftTests.swift in Sources */,
-				70E8DA0B1D9C4D6400BD3DA9 /* FlipCardSolutionFactory.swift in Sources */,
+				70E8DA0B1D9C4D6400BD3DA9 /* CardFlipSolutionFactory.swift in Sources */,
 				7044F25A1D9D50A500A71DD5 /* CardFlipSolution.swift in Sources */,
 				70E8DA0A1D9C4D6100BD3DA9 /* PrimeNumberFlip.swift in Sources */,
 			);
