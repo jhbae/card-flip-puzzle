@@ -11,7 +11,9 @@ import Foundation
 
 class MultiplesFlip: CardFlipSolution {
 
+
     func flipAllCardsByRule(arrayOfCards cards:[Bool]) -> [Bool] {
+
         var lastStateOfCards = cards
         for i in 2...cards.count {
             lastStateOfCards = flipCardsOfMultiples(forTheRound: i, withBound:cards.count, arrayOfCards:lastStateOfCards)
@@ -20,7 +22,9 @@ class MultiplesFlip: CardFlipSolution {
         return lastStateOfCards
     }
 
+
    private func flipCardsOfMultiples(forTheRound:Int, withBound maxBound:Int, arrayOfCards cards:[Bool]) -> [Bool] {
+
         var tempCards = cards
 
         for j in stride(from: forTheRound, through: Int(maxBound / forTheRound) * forTheRound, by: forTheRound) {
@@ -29,6 +33,4 @@ class MultiplesFlip: CardFlipSolution {
 
         return tempCards
     }
-
-    
 }

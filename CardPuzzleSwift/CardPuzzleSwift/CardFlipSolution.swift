@@ -19,29 +19,46 @@ protocol CardFlipSolution {
     func flipAllCardsByRule(arrayOfCards cards:[Bool]) -> [Bool]
 }
 
+
 extension CardFlipSolution {
 
+
     func printAllCards(arrayOfCards cards:[Bool]) {
+
         for i in 0..<cards.count {
             print("\(i+1): \(cards[i])", terminator: " ")
+
             if (i % 10 == 9) {
                 print("")
             }
         }
+        print("")
     }
 
+
     func printFlippedCards(arrayOfCards cards:[Bool]) {
+
+        var j = 0
         for i in 0..<cards.count {
             if cards[i] == false {
                 print("\(i+1)", terminator: ",")
+
+                j+=1
+                if (j % 5 == 0) {
+                    print("")
+                }
+
             }
         }
+        print("")
     }
 
+
     func countOfFlippedCards(arrayOfCards cards:[Bool]) -> Int {
+
         var count = 0;
         for item in cards {
-            if (item) {
+            if (item == false) {
                 count += 1;
             }
         }

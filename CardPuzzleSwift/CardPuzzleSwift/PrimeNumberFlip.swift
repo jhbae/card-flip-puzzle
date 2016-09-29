@@ -11,6 +11,7 @@ import Foundation
 
 class PrimeNumberFlip: CardFlipSolution {
 
+
     func flipAllCardsByRule(arrayOfCards cards:[Bool]) -> [Bool] {
 
         var tempCards = cards
@@ -24,6 +25,7 @@ class PrimeNumberFlip: CardFlipSolution {
         }
         return tempCards
     }
+
 
     private func numberOfDivisors(withNumber number:Int) -> Int {
 
@@ -52,6 +54,7 @@ class PrimeNumberFlip: CardFlipSolution {
         }
         return totalCount - 1
     }
+
 
     private func primeDivisor(withNumber number:Int) -> Int {
 
@@ -106,5 +109,4 @@ class PrimeNumberFlip: CardFlipSolution {
         
         return result
     }
-
 }
