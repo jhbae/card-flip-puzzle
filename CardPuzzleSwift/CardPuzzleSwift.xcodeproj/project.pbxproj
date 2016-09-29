@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7044F2591D9D50A500A71DD5 /* CardFlipSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7044F2581D9D50A500A71DD5 /* CardFlipSolution.swift */; };
+		7044F25A1D9D50A500A71DD5 /* CardFlipSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7044F2581D9D50A500A71DD5 /* CardFlipSolution.swift */; };
 		70B14EBA1D9AE21800034BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14EB91D9AE21800034BD7 /* AppDelegate.swift */; };
 		70B14EBC1D9AE21800034BD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14EBB1D9AE21800034BD7 /* ViewController.swift */; };
 		70B14EBF1D9AE21800034BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B14EBD1D9AE21800034BD7 /* Main.storyboard */; };
@@ -32,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7044F2581D9D50A500A71DD5 /* CardFlipSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFlipSolution.swift; sourceTree = "<group>"; };
 		70B14EB61D9AE21800034BD7 /* CardPuzzleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardPuzzleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B14EB91D9AE21800034BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70B14EBB1D9AE21800034BD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +68,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7044F2561D9D502B00A71DD5 /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				70B14ED91D9AE26700034BD7 /* MultiplesFlip.swift */,
+				70B14EDC1D9B7F0700034BD7 /* PrimeNumberFlip.swift */,
+			);
+			name = Solutions;
+			sourceTree = "<group>";
+		};
+		7044F2571D9D506D00A71DD5 /* CardPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				70E8DA081D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift */,
+				7044F2581D9D50A500A71DD5 /* CardFlipSolution.swift */,
+				7044F2561D9D502B00A71DD5 /* Solutions */,
+			);
+			name = CardPuzzle;
+			sourceTree = "<group>";
+		};
 		70B14EAD1D9AE21800034BD7 = {
 			isa = PBXGroup;
 			children = (
@@ -86,15 +108,13 @@
 		70B14EB81D9AE21800034BD7 /* CardPuzzleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				7044F2571D9D506D00A71DD5 /* CardPuzzle */,
 				70B14EB91D9AE21800034BD7 /* AppDelegate.swift */,
 				70B14EBB1D9AE21800034BD7 /* ViewController.swift */,
 				70B14EBD1D9AE21800034BD7 /* Main.storyboard */,
 				70B14EC01D9AE21800034BD7 /* Assets.xcassets */,
 				70B14EC21D9AE21800034BD7 /* LaunchScreen.storyboard */,
 				70B14EC51D9AE21800034BD7 /* Info.plist */,
-				70B14ED91D9AE26700034BD7 /* MultiplesFlip.swift */,
-				70B14EDC1D9B7F0700034BD7 /* PrimeNumberFlip.swift */,
-				70E8DA081D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift */,
 			);
 			path = CardPuzzleSwift;
 			sourceTree = "<group>";
@@ -214,6 +234,7 @@
 				70B14EBC1D9AE21800034BD7 /* ViewController.swift in Sources */,
 				70B14EDA1D9AE26700034BD7 /* MultiplesFlip.swift in Sources */,
 				70B14EDD1D9B7F0700034BD7 /* PrimeNumberFlip.swift in Sources */,
+				7044F2591D9D50A500A71DD5 /* CardFlipSolution.swift in Sources */,
 				70E8DA091D9BCA8500BD3DA9 /* FlipCardSolutionFactory.swift in Sources */,
 				70B14EBA1D9AE21800034BD7 /* AppDelegate.swift in Sources */,
 			);
@@ -226,6 +247,7 @@
 				70B14EDB1D9AE3EE00034BD7 /* MultiplesFlip.swift in Sources */,
 				70B14ECF1D9AE21800034BD7 /* CardPuzzleSwiftTests.swift in Sources */,
 				70E8DA0B1D9C4D6400BD3DA9 /* FlipCardSolutionFactory.swift in Sources */,
+				7044F25A1D9D50A500A71DD5 /* CardFlipSolution.swift in Sources */,
 				70E8DA0A1D9C4D6100BD3DA9 /* PrimeNumberFlip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

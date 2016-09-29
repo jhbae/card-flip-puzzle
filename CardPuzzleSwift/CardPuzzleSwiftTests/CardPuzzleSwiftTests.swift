@@ -21,21 +21,21 @@ class CardPuzzleSwiftTests: XCTestCase {
         super.tearDown()
     }
     
-    func testSomeRounds() {
+    func testPuzzleSolutions() {
 
         let maxBound = 100
         let cards = Array.init(repeating: true, count: maxBound)
 
         var solution: CardFlipSolution = CardFlipSolutionFactory.create(type:.MultiplesSolution)!
 
-        let result = solution.processFlipAllCards(arrayOfCards: cards);
+        let result = solution.flipAllCardsByRule(arrayOfCards: cards);
         var count = solution.countOfFlippedCards(arrayOfCards: result)
 
         print("Number of flipped cards is \(count)")
         solution.printFlippedCards(arrayOfCards: result)
 
         solution = CardFlipSolutionFactory.create(type:.PrimeNumberSolution)!
-        let result2 = solution.processFlipAllCards(arrayOfCards: cards);
+        let result2 = solution.flipAllCardsByRule(arrayOfCards: cards);
          count = solution.countOfFlippedCards(arrayOfCards: result2)
 
         print("Number of flipped cards is \(count)")

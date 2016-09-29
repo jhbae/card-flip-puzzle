@@ -8,9 +8,10 @@
 
 import Foundation
 
+
 class MultiplesFlip: CardFlipSolution {
 
-    func processFlipAllCards(arrayOfCards cards:[Bool]) -> [Bool] {
+    func flipAllCardsByRule(arrayOfCards cards:[Bool]) -> [Bool] {
         var lastStateOfCards = cards
         for i in 2...cards.count {
             lastStateOfCards = flipCardsOfMultiples(forTheRound: i, withBound:cards.count, arrayOfCards:lastStateOfCards)

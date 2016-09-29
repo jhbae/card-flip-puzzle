@@ -11,7 +11,7 @@ import Foundation
 
 class PrimeNumberFlip: CardFlipSolution {
 
-    func processFlipAllCards(arrayOfCards cards:[Bool]) -> [Bool] {
+    func flipAllCardsByRule(arrayOfCards cards:[Bool]) -> [Bool] {
 
         var tempCards = cards
         tempCards[0] = true
