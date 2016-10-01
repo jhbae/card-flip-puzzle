@@ -31,21 +31,18 @@ class CardPuzzleSwiftTests: XCTestCase {
         let result = solution.flipAllCardsByRule(arrayOfCards: cards);
         var count = solution.countOfFlippedCards(arrayOfCards: result)
 
-        print("** Number of flipped cards with MultiplesSolution: \(count)")
-        print("")
+        print("** Number of flipped cards with MultiplesSolution: \(count) \n")
         solution.printFlippedCards(arrayOfCards: result)
 
         print("\n")
 
         solution = CardFlipSolutionFactory.create(type:.PrimeNumberSolution)!
         let result2 = solution.flipAllCardsByRule(arrayOfCards: cards);
-         count = solution.countOfFlippedCards(arrayOfCards: result2)
+        count = solution.countOfFlippedCards(arrayOfCards: result2)
 
-        print("** Number of flipped cards with PrimeNumberSolution: \(count)")
-        print("")
+        print("** Number of flipped cards with PrimeNumberSolution: \(count) \n")
         solution.printFlippedCards(arrayOfCards: result2)
 
         XCTAssert(result == result2)
     }
-    
 }
