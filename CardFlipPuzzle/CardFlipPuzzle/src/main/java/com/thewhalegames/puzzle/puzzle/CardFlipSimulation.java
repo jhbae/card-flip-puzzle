@@ -31,9 +31,10 @@ public class CardFlipSimulation {
         System.out.println("** Number of flipped cards with PrimeFlip: " + count);
         solution.printFlippedCards(result2);
 
-        result.retainAll(result2);
+
+        result.removeAll(result2);
         if (result.size() == 0) {
-            System.out.println("success");
+            System.out.println("test success");
         }
     }
 }
